@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f3f3f3;
+}
+
+.container .ql-editor {
+  box-shadow: 0 0 5px 0 rgb(0, 0, 0, 0.5);
+  width: 8.5in;
+  min-height: 11in;
+  padding: 1in;
+  margin: 1rem;
+  background: white;
+}
+
+.container .ql-container {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.container .ql-toolbar {
+  border: none;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 5px 0 rgb(0, 0, 0, 0.5);
+}
+
+@page {
+  margin: 1in;
+}
+
+@media print {
+  body {
+    background: none;
+  }
+
+  .container .ql-editor {
+    width: 6.5in;
+    height: 9in;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    align-self: flex-start;
+  }
+
+  .container .ql-toolbar {
+    display: none;
+  }
+}
