@@ -1,6 +1,6 @@
 # Project : Google Docs Clone
 
-> #### Deployed on Vercel: https://googledocs-clone-nu.vercel.app/
+> #### Deployed on Vercel: https://googledocs-clone-ten.vercel.app/
 
 ## Introduction  
 In the process of learning React. I've created a google docs clone project.  
